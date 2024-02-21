@@ -1,0 +1,522 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.headnav{
+    background-color: rgb(15, 14, 14);
+    color: #ffffff;
+}
+h3{
+    font-weight: 400;
+}
+*{
+    font-family:roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header .container-fluid .row .col-lg-4{
+    padding-top: 5px;
+    margin-top: 5px;
+    
+}
+.header .headnav .row .navgri{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+}
+.navbar-brand ,.navbar-brand:hover{
+    color: rgb(3, 200, 255);
+    padding-left: 80PX;
+}
+.navbar-brand #j{
+    font-size:2.5rem;
+    font-family: monospace;
+    padding-left: 2rem;
+    font-weight: bolder;
+}
+.navbar-brand #G{
+   font-size: 1.5em;
+   font-family: monospace;
+   font-weight: bold;
+
+}
+.navbar .navbar-nav .nav-link{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -3.5em;
+    text-transform: uppercase;
+    font-family: roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #000000;
+    font-weight: 400;
+}
+.navbar .navbar-nav .nav-link:hover{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: -3.5em;
+    text-transform: uppercase;
+    font-family: roboto,system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: underline;
+    color: rgb(49, 46, 55);
+    transition: 3s;
+    
+}
+ul{
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+.navbar{
+    /* background-color: azure; */
+   height:4em;
+   background-color: rgb(255, 251, 5);
+   
+
+}
+.main .container-fluid .row .manimg{
+    background: url(/img/apeerson.jpg) no-repeat center ;
+    background-size: cover;
+    height: 100vh;
+
+}
+.main .container-fluid .row .manimgg{
+    background: black no-repeat center ;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.manimgg #upslide11  {
+   animation-name: slide1;
+   animation-duration: 3s;
+
+}
+@keyframes slide1 {
+    from {
+        transform: translateY(120px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
+.manimgg #slide2{
+    animation-name: slide2;
+    animation-duration: 3s;
+}
+@keyframes slide2 {
+    from {
+        transform: translateY(-40px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+
+    
+}
+.manimgg .slide3{
+    animation-name: slide3;
+    animation-duration: 3s;
+}
+@keyframes slide3 {
+    from {
+        transform: translateX(400px);
+        content: none;
+    }
+    to{
+        transform: translateX(0px);
+    }
+
+    
+}
+
+
+
+.main .container-fluid .row .manimgg h2{
+    font-size: 3.7em;
+    text-transform: capitalize;
+    color: white;
+    text-align: justify;
+    align-items: center;
+    padding-left: 2.3em;
+    margin-top:3em;
+    font-weight: bolder;
+    font-family: roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main .container-fluid .row .highl{
+    background: yellow;
+    color: rgba(0, 0, 0, 0.858);
+}
+.main .container-fluid .row p{
+    font-size: 1em;
+    text-transform: capitalize;
+    color: white;
+    text-align: justify;
+    align-items: center;
+    padding-left: 8.7em;
+    margin-top: 0em;
+    /* font-weight: bolder; */
+    font-family: roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.main .container-fluid .row .btn12{
+    background-color: #fae505;
+    color: black;
+    padding: 1em;
+    padding: 15px 50px;
+    margin-left: 9em;
+    margin-top: 1em;
+    font-weight: 600;
+    /* transition: 1s; */
+    transition: 1s;
+    
+}
+.main .container-fluid .row .btn12:hover{
+   background-color: #fff;
+   color: black;
+   transform:translatey(-30px);
+   transition: 1.5s;
+    /* animation-name:up;
+   animation-duration: 1s;
+   animation-fill-mode:forwards;
+   animation-iteration-count: 1;
+   font-weight: 600; */
+
+
+}
+/* @keyframes up{
+    10%{
+        position:relative;
+       bottom: 1px;
+    }
+    20%{
+        position:relative;
+       bottom: 2px;
+    }
+    30%{
+        position:relative;
+       bottom: 3px;
+    }
+    40%{
+        position:relative;
+       bottom: 4px;
+    }
+    50%{
+        position:relative;
+       bottom: 5px;
+    }
+    60%{
+        position:relative;
+       bottom: 6px;
+    }
+    70%{
+        position:relative;
+       bottom: 7px;
+    }
+    80%{
+        position:relative;
+       bottom: 8px;
+    }
+    90%{
+        position:relative;
+       bottom: 9px;
+    }
+    100%{
+        position:relative;
+       bottom: 10px;
+    }
+    
+    
+} */
+.cardsec .container .row .card{
+    width:329px;
+    height: 329px;
+    border: 0 white;
+    border-radius: 0;
+
+}
+.cardsec .container .row .fcard,.scard,.tcard{
+    box-shadow: 0px 0px 0.5px 0.4px  rgb(161, 155, 155);
+}
+.cardsec .container .row .fcard img,.cardsec .container .row .scard img,.cardsec .container .row .tcard img{
+    margin-left: 95px;
+    padding-bottom: 10px;
+
+}
+.cardsec .container .row .fcard,.scard,.tcard{
+    animation-name: slide4;
+    animation-duration: 4s;
+}
+@keyframes slide4 {
+    from{
+        transform: translateY(200PX);
+
+    }
+    to{
+        transform: translateY(0px);
+    }
+    
+}
+.cardsec .container .row .fcard p,.cardsec .container .row .scard p,.cardsec .container .row .tcard p{
+    text-align: center;
+    
+}
+.cardsec .container .row .scard{
+    background-color: yellow;
+}
+.cardsec{
+    margin-top:-4em;
+    margin-left:11em;
+    width: 75%;
+
+}
+.cardsec .container .row .fcard ,.cardsec .container .row .tcard {
+    border-bottom: #fae505 5px solid;
+}
+.blackbox{
+    width: 230px;
+    height: 200px;
+    background-color: #000000;
+    
+}
+.blackbox h2{
+    color: white;
+    margin-top: -3em;
+    margin-left: 68px;
+}
+.blackbox p{
+    color: white;
+    margin-top: -0.6.em;
+    margin-left: -10px;
+
+}
+.timg{
+    margin-top: -14.2em;
+    margin-left: 16em;
+}
+.aboutUs{
+    margin-top: 3rem;
+}
+#h5u{
+    text-decoration: underline yellow 3px;
+    margin-top: 1em;
+    font-weight: bold;
+    color: #000000;
+}
+#h2d{
+    margin-top: 0.4em;
+    color: black;
+    font-weight: bold;
+}
+#pp{
+    margin-top: 0.4em;
+}
+.secabo{
+    margin-left: -4em;
+}
+.floimg{
+    margin-top: -14em;
+    margin-left: 16em;
+}
+#h5os{
+    
+    text-decoration: underline yellow 3px;
+    font-weight: bold;
+    color: #000000;
+    margin-left: 2em;
+    
+}
+.ourService{
+    background-color: #b4a9a93b;
+}
+#h3os{
+    font-weight: bold;
+    color: #000000f1;
+    margin-left: 1.4em;
+}
+.btn133{
+    background-color: #fae505;
+    color: black;
+    padding: 1em;
+    padding: 15px 35px;
+    margin-left: 9em;
+    margin-top: 1em;
+    font-weight: 600;
+    /* transition: 1s; */
+    transition: 1s;
+    border: 0;
+}
+.btn133:hover{
+    background-color: #000000;
+    color:#fae505;
+    transform:translatey(-10px);
+    transition: 0.8s;
+     /* animation-name:up;
+    animation-duration: 1s;
+    animation-fill-mode:forwards;
+    animation-iteration-count: 1;
+    font-weight: 600; */
+ 
+ 
+}
+
+ .uswh{
+    width: 90%;
+    margin-left: 60px;
+ }
+.cd3{
+    width: 300px;
+    height: 280px;
+    border: 0;
+   margin-top: -3.2em !important;
+   border-radius: 0;
+}
+.cd3 p{
+    text-align:center;
+}
+.cd3 img{
+    margin-left: 75px;
+}
+.cd34{
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+.btn2{
+    background-color: #fae505;
+    color: #000000;
+    font-size: 2rem;
+    font-weight: bolder;
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    box-shadow: 0px;
+    border: 0;
+    margin-left: 110px;
+    margin-top: -30px;
+    
+}
+.btn2 img{
+    margin-left: -0px;
+}
+
+.btn2:hover{
+    background-color: #00ffff;
+    color: #fae505;
+}
+.bdots{
+    background:rgb(0, 0, 0);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 93vh;
+}
+.bcr3{
+    background: url(/img/crew3.jpg) no-repeat ;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+   
+    
+}
+.s4r{
+    margin-top: 5em;
+}
+
+.whyChoose .container-fluid .row .col-lg-6 .pclass{
+    color:#fae505;
+    font-size: 1.5em;
+    margin-top: 80px;
+    margin-left: -150px;
+}
+.whyChoose .container-fluid .row .col-lg-6 h3{
+    color: white;
+    font-size: 2em;
+    margin-left: 60px;
+    font-weight: 700;
+}
+.whyChoose .container-fluid .row .col-lg-6 #lorem1{
+    margin-left: -80px ;
+    color: #ffffffbf;
+}
+.by{
+    width: 75px;
+    height: 75px;
+    background-color: #fae505;
+    border: 0;
+    box-shadow: 0;
+    padding: 5px;
+    margin-top: 20px;
+}
+.by1{
+    margin-right: 3em;
+    margin-left: 3.7em;
+}
+.by2{
+    margin-left: 14.8em;
+}
+.bic .row .col-lg-6 h5{
+    font-size: 1.5em;
+    color: white;
+    margin-top: 20px;
+    text-indent: 43px;
+}
+.bic .row .col-lg-6 p{
+    margin-left: -95px;
+    color: #ffffffb8;
+}
+
+.newb{
+    padding: 10px 40px;
+    margin-left:50px;
+}
+.anchor69 a{
+    text-decoration: none;
+    color: #ffffff;
+    
+}
+.anchor69{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+
+
+.anchor69 a:hover{
+    color: #fae505;
+
+}
+
+.bbox{
+    /* display: flex; */
+    width: 330px;
+    height: 180px;
+    background-color: rgb(13, 13, 13);
+    margin-top: 34em;
+    margin-left: 2em;
+}
+.bbox2{
+    width: 330px;
+    height: 180px;
+    background-color:  rgb(13, 13, 13);
+    /* margin-top: 34em; */
+    margin-left: 25em;
+    margin-top: -11.2em;
+}
+.cir{
+    position:absolute;
+    width: 130px;
+    height: 130px;
+    border: #fae505 8px solid;
+    border-radius: 50%;
+    margin-left: 10px;
+    padding-top: 2em;
+    margin-top: 20px;
+}
+.bboxp{
+    position: absolute;
+    right: 20px;
+}
+.pss{
+    padding-left: 80px !important;
+}
+.blackbg{
+    background-color: #101010;
+    color: #ffffff;
+}
+.oplow{
+    color: #e0c6c6c6;
+
+}
